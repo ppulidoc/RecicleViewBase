@@ -14,16 +14,26 @@
         android:padding="5dp">
 
         <ImageView
-            android:id="@+id/imageview"
+            android:id="@+id/imageviewXancla"
             android:layout_width="40dp"
             android:layout_height="40dp" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textViewMarca"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="15dp"
+            android:text="Item"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPreu"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="8dp"
             android:text="Item"
             android:textSize="20sp"
             android:textStyle="bold" />
